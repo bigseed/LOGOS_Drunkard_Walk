@@ -1,4 +1,6 @@
-# Drunkard's Walk Problem
+# ◉ Drunkard's Walk Problem
+
+성균관대학교 물리학과 김범준 교수님의 연구를 동기로 탐구를 진행하였습니다.
 
 ### ✔ 마구걷기 문제(Drunkard's Walk Problem)란?
 
@@ -42,13 +44,13 @@
 
   다음과 같이 밀도를 정의하고 마구걷기 상황과 정규분포에서의 밀도를 비교하였다.
 
-선밀도 = (영역 내의 점의 개수) / (영역의 길이)
+  선밀도 = (영역 내의 점의 개수) / (영역의 길이)
 
-<img src="./result/1-dimentional_walking_density.png" width="48%" height="30%"></img>
-<img src="./result/1-dimentional_norm_density.png" width="48%" height="30%"></img>
+  <img src="./result/1-dimentional_walking_density.png" width="48%" height="30%"></img>
+  <img src="./result/1-dimentional_norm_density.png" width="48%" height="30%"></img>
 
-두 그래프의 개형이 비슷함을 통해 마구걷기 상황에서 입자의 분포는 정규분포를 따르고 있음을 알 수 있다.  
- 다만 마구걷기 상황에서 걸음의 단위가 존재(반복횟수당 1의 거리를 움직임)하므로 짧은 거리에서 연속적인 정규분포와 차이를 관찰할 수 있다.
+  두 그래프의 개형이 비슷함을 통해 마구걷기 상황에서 입자의 분포는 정규분포를 따르고 있음을 알 수 있다.  
+  다만 마구걷기 상황에서 걸음의 단위가 존재(반복횟수당 1의 거리를 움직임)하므로 짧은 거리에서 연속적인 정규분포와 차이를 관찰할 수 있다.
 
 - 2차원 마구걷기
 
@@ -59,12 +61,12 @@
 
   다음과 같이 밀도를 정의하고 마구걷기 상황과 정규분포에서의 밀도를 비교하였다.
 
-면밀도 = (영역 내의 점의 개수) / (영역의 넓이)
+  면밀도 = (영역 내의 점의 개수) / (영역의 넓이)
 
-<img src="./result/2-dimentional_walking_density.png" width="48%" height="30%"></img>
-<img src="./result/2-dimentional_norm_density.png" width="48%" height="30%"></img>
+  <img src="./result/2-dimentional_walking_density.png" width="48%" height="30%"></img>
+  <img src="./result/2-dimentional_norm_density.png" width="48%" height="30%"></img>
 
-두 그래프의 개형은 비슷하나 1차원 밀도와 차이가 있음을 관찰할 수 있다. 짧은 거리에서도 비슷한 양상을 보였으며 이는 2차원 정규분포를 구성할 때 마구걷기의 단위길이를 모방했기 때문이라고 추측된다.
+  두 그래프의 개형은 비슷하나 1차원 밀도와 차이가 있음을 관찰할 수 있다. 짧은 거리에서도 비슷한 양상을 보였으며 이는 2차원 정규분포를 구성할 때 마구걷기의 단위길이를 모방했기 때문이라고 추측된다.
 
 ### ✔ 탐구의 확장 가능성
 
